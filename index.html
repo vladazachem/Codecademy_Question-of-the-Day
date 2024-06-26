@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Grainy Gradient, Gaussian Blur (Daily Design + Code #3)</title>
+  <title>Question of the Day</title>
   <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
                 <link rel="stylesheet" href="./style.css">
 
@@ -12,9 +12,9 @@
 <div class="hero">
   <div class="hero-text">
     <h1>Question of the Day</h1>
-    <p>How do I typically cope with stress, and are these methods truly helping me?</p>
+    <p id="questions">How do I typically cope with stress, and are these methods truly helping me?</p>
     <div class="buttons">
-      <a class="button primary" href="https://dribbble.com/shots/21248617-Daily-Design-Code-3-Grainy-Gradients-Blurry-Background" target="_blank">Generate a Question</a>
+      <a class="button primary" id="generate" target="_blank">Generate a Question</a>
     </div>
     
   </div>
@@ -36,8 +36,9 @@
         <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
         <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
   </filter>
-  
 </svg>
+
+<script src="./script.js"></script>
 
 </body>
 </html>
