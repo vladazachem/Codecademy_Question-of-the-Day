@@ -173,15 +173,14 @@ body::before {
 }
 
 .button {
-  padding: 1em 3em;
-  border: 1px solid var(--text);
+  padding: 1.5em 3em;
   font-size: 18px;
+  background-color: black;
+  border: black;
+  color: var(--text-light);
+  font-family: "Recoleta";
 }
 
-.primary {
-  background-color: black;
-  color: var(--text-light);
-}
 
 @media only screen and (max-width: 1000px) {
   body {
