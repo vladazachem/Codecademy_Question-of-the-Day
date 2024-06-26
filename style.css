@@ -176,9 +176,15 @@ body::before {
   padding: 1.5em 3em;
   font-size: 18px;
   background-color: black;
-  border: black;
+  border: 1px solid #000000;
   color: var(--text-light);
   font-family: "Recoleta";
+}
+
+.button:hover {
+  background-color: #e5e9ee;
+  color: var(--text);
+  border-color: black;
 }
 
 
