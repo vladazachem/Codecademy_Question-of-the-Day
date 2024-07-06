@@ -7,9 +7,6 @@
   --green: #b2c9ab;
 }
 
-* {
-  font-family: "Poppins";
-};
 
 body {
   height: 100vh;
@@ -22,6 +19,7 @@ body {
   gap: 3em;
   
   background-color: var(--bg);
+  font-family: "Poppins";
   
   margin: 0 10em;
 }
